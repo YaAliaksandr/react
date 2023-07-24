@@ -51,29 +51,29 @@ const contextCreator = function (obj) {
 }
 const recept = function (e) {
 	e.preventDefault();
-	console.log(this);
+
 	const name = nameRef.value;
 	const protein = parseFloat(proteinsRef.value);
 	const fat = parseFloat(fatRef.value);
 	const carbs = parseFloat(carbsRef.value);
-	console.log(`name ==== ${name}`)
+
 	let sumKcal;
 	let prodClass;
 	if (!isNaN(protein) && !isNaN(fat) && !isNaN(carbs)) {
-		console.log
+
 		sumKcal = protein * 4 + fat * 9 + carbs * 4;
 		if (sumKcal > 250) {
 			prodClass = new FastFood(name, protein, carbs, fat);
 			foods.push(prodClass);
-			console.log(foods);
-			contextCreator(prodClass);
+
 		} else {
 
 			prodClass = new FatFreeFood(name, protein, carbs, fat);
 			foods.push(prodClass);
-			console.log(foods);
-			contextCreator(prodClass);
+
 		}
+		console.log(foods);
+		contextCreator(prodClass);
 
 		return;
 	} else {
