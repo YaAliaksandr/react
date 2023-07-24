@@ -8,12 +8,12 @@ function randomize(param1, param2, callback) {
 	const min = Math.min(param1, param2);
 	const max = Math.max(param1, param2);
 	const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-	callback(randomNumber)
+	return callback(randomNumber);
 }
 
-randomize(1, 5, function (num) {
-	console.log("hey  " + num);
-})
+console.log(randomize(1, 5, function (num) {
+	return `Wylosowana liczba to ${num}`
+}))
 // моё не правильное решение
 // function randomize(param1, param2, callback) {
 // 	const a = param1;
