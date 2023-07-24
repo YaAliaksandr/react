@@ -1,0 +1,21 @@
+{
+	"name": "onl_fer_s_19_es6_react_podstawy-main",
+	"version": "1.0.0",
+	"description": "![Coders-Lab-1920px-no-background](https://user-images.githubusercontent.com/30623667/104709387-2b7ac180-571f-11eb-9b94-517aa6d501c9.png)",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack serve",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YaAliaksandr/react.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/YaAliaksandr/react/issues"
+	},
+	"homepage": "https://github.com/YaAliaksandr/react#readme"
+}
