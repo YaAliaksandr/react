@@ -17,5 +17,6 @@
 	"bugs": {
 		"url": "https://github.com/YaAliaksandr/react/issues"
 	},
-	"homepage": "https://github.com/YaAliaksandr/react#readme"
+	"homepage": "https://github.com/YaAliaksandr/react#readme",
+	"dependencies": {}
 }
