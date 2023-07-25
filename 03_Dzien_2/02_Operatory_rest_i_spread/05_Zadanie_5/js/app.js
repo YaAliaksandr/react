@@ -7,7 +7,7 @@ const state = {
 const stateCopy = {
 	...state,
 	availableYears: state.availableYears.filter((item) => {
-		return item >= 1999;
+		return item <= 1999;
 	}),
 	isUserLogged: true,
 };
