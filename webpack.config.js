@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "03_Dzien_2/03_Lancuchy_szablonow_i_interpolacja_stringow/05_Zadanie_5";
+const entryPath = "04_Dzien_2_-_Praca_domowa/01_Zadanie_1";
 
 module.exports = {
 	mode: "none",

@@ -7,16 +7,21 @@
 		"start": "webpack serve",
 		"build": "webpack"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/YaAliaksandr/react.git"
-	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/YaAliaksandr/react/issues"
+	"devDependencies": {
+		"@babel/core": "^7.22.9",
+		"@babel/preset-env": "^7.22.9",
+		"babel-loader": "^9.1.3",
+		"process": "^0.11.10",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.15.1"
 	},
-	"homepage": "https://github.com/YaAliaksandr/react#readme",
-	"dependencies": {}
+	"dependencies": {
+		"date-fns": "^2.30.0",
+		"formik": "^2.4.2",
+		"simple-slider": "^1.0.1"
+	}
 }
