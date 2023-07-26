@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "05_Dzien_3/04_Atrybuty_elementow/01_Zadanie_1";
+const entryPath = "06_Dzien_3_-_Praca_domowa/02_Zadanie_2";
 
 module.exports = {
 	mode: "none",
