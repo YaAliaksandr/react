@@ -2,16 +2,6 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import people from "./data/people";
 
-// <div class="person">
-//     <img src={ avatar } />
-//     <div class="info">
-//         <h1>{ tytuł + imię + nazwisko }</h1>
-//         <p>{ bio }</p>
-//     </div>
-// </div>
-
-
-
 const container = document.getElementById("app");
 const root = createRoot(container);
 root.render(<>
