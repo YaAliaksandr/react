@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "07_Dzien_4/03_Zagniezdzanie_i_dzielenie/02_Zadanie_2";
+const entryPath = "07_Dzien_4/04_Kompozycja_i_props_children/04_Zadanie_4";
 
 module.exports = {
 	mode: "none",
